@@ -25,19 +25,10 @@ const Main = () => {
             opacity: "100%",
           }}
         >
-          <motion.div
-            className="text-white absolute bottom-12 left-20 hover:underline text-4xl"
-            gutterBottom
-            variant="h5"
-            component="div"
-            animate={{ opacity: 1 }}
-            initial={{ opacity: 0 }}
-            transition={{ duration: 1 }}
-          >
-            Lets go
+          <div className="text-white text-center">
+            Explore
             <br></br>
-            Outdoor!
-          </motion.div>
+          </div>
         </div>
       </Container>
     </>

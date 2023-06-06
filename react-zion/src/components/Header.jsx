@@ -46,23 +46,23 @@ const Header = () => {
                 </a>
               </motion.div>
               <Stack direction="row" spacing={2}>
-                <Button color="inherit" href="/" style={{ fontSize: 14 }}>
-                  Contact us
+                <Button color="inherit" href="/" className="text-sm">
+                  Contact
                 </Button>
-                <Button color="inherit" style={{ fontSize: 14 }}>
+                <Button color="inherit" className="text-sm">
                   About
                 </Button>
-                <Button color="inherit" style={{ fontSize: 14 }}>
+                <Button color="inherit" className="text-sm">
                   Rates
                 </Button>
-                <Button color="inherit" style={{ fontSize: 14 }}>
+                <Button color="inherit" className="text-sm">
                   Where
                 </Button>
                 <motion.div whileHover={{ scale: 1.1 }}>
                   <Button
                     variant="contained"
                     color="error"
-                    style={{ fontSize: 15 }}
+                    className="text-base rounded-full"
                   >
                     BOOK NOW
                   </Button>
