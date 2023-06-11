@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+const withMT = require("@material-tailwind/react/utils/withMT");
 
 
-module.exports = {
+module.exports = withMT({
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
 
@@ -15,13 +16,14 @@ module.exports = {
       '2xl': '1.563rem',
       '3xl': '1.953rem',
       '4xl': '2.441rem',
-      '5xl': '3.052rem',
+      '5xl': '2.752rem',
     },
     fontFamily: {
-      title: ['Josefin Sans']
+      title: ['Josefin Sans'],
+      header: ['Comfortaa']
     },
 
     extend: {},
   },
   plugins: [],
-};
+});

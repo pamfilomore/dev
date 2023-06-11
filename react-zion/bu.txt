@@ -1,0 +1,17 @@
+ <div
+          className="h-[800px] w-[100%] bg-cover bg-center bg-no-repeat inline-block"
+          style={{
+            backgroundImage: `url(${require("../assets/img/img4.jpg")})`,
+          }}
+        >
+          <div className="text-white text-center">
+            Explore
+            <br></br>
+          </div>
+        </div>
+
+
+
+        <div className=" text-3xl font-header text-center border-b border-gray-400">
+          Rates & Amenities
+        </div>

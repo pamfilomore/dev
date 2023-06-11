@@ -53,7 +53,7 @@ const Header = () => {
                   About
                 </Button>
                 <Button color="inherit" className="text-sm">
-                  Rates
+                  Amenities
                 </Button>
                 <Button color="inherit" className="text-sm">
                   Where
