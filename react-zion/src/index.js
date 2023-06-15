@@ -6,7 +6,8 @@ import NavBar from './components/Nav'
 import Main from './components/Main'
 import About from './components/About'
 import GradientImg from './components/GradientImage'
-import Rates from './components/Rates';
+import Amenities from './components/Amenities';
+import Gallery from './components/Gallery'
 
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 
@@ -33,7 +34,8 @@ root.render(
         <Main />
         <About />
         <GradientImg />
-        <Rates />
+        <Amenities />
+        <Gallery />
     </ThemeProvider>
 
 

@@ -19,8 +19,13 @@ const Main = () => {
           >
             <source src={videoBg} type="video/mp4" />
           </video>
-          <h1 className="text-white"></h1>
-          <button className="absolute rounded-full animate-bounce bottom-3 ">
+          <div className="hero-label">
+            <h1 className="text-6xl font-header font-extra-bold">
+              LET'S GO CAMPING
+            </h1>
+          </div>
+
+          <button className="absolute rounded-full animate-bounce bottom-3 hover:animate-none hover:animate-ping ">
             <svg
               className="stroke-gray-500 fill-transparent h-12 w-12"
               xmlns="http://www.w3.org/2000/svg"

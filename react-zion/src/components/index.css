@@ -6,3 +6,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.hero-label h1{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    transition: 0.5s;
+}
+
+.hero-label h1:hover{
+    
+    color: #fff;
+
+}

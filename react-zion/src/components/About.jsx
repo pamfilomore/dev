@@ -15,7 +15,9 @@ const About = () => {
   return (
     <Container fixed maxWidth="lg" className="pt-6 ">
       <div className="p-6">
-        <div className="pt-8 text-slate-500 text-center">Talisay, Batangas</div>
+        <div className="pt-8 text-slate-500 text-center ">
+          Talisay, Batangas
+        </div>
         <div className=" text-5xl font-title border-b border-gray-200 dark:text-slate-700 text-center">
           Zion Grace Campsite
         </div>
@@ -52,7 +54,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <Carousel className="rounded-lg max-w-xs overflow-hidden transition-all delay-300 hover:scale-105 origin-bottom -rotate-1 hover:rotate-0">
+          <Carousel className="rounded-lg lg:w-80 md:w-64 sm:w-48 overflow-hidden transition-all delay-300 hover:scale-105 origin-bottom -rotate-1 hover:rotate-0">
             <img className="max-w-xs" src={c1} alt="" />
             <img className="max-w-xs" src={c2} alt="" />
             <img className="max-w-xs" src={c3} alt="" />

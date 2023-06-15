@@ -17,12 +17,16 @@ module.exports = withMT({
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '2.752rem',
+      '6xl': '4.500rem',
     },
     fontFamily: {
       title: ['Josefin Sans'],
       header: ['Comfortaa']
     },
 
+    fontWeight: {
+      'extra-bold': 900
+    },
     extend: {},
   },
   plugins: [],

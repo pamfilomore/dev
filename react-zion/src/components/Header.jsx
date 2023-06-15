@@ -47,7 +47,7 @@ const Header = () => {
               </motion.div>
               <Stack direction="row" spacing={2}>
                 <Button color="inherit" href="/" className="text-sm">
-                  Contact
+                  Overview
                 </Button>
                 <Button color="inherit" className="text-sm">
                   About
