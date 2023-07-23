@@ -13,10 +13,10 @@ module.exports = withMT({
       sm: '0.7rem',
       base: '0.8rem',
       xl: '1.25rem',
-      '2xl': '1.563rem',
+      '2xl': '1.400rem',
       '3xl': '1.953rem',
-      '4xl': '2.441rem',
-      '5xl': '2.752rem',
+      '4xl': '2.781rem',
+      '5xl': '3.752rem',
       '6xl': '4.500rem',
     },
     fontFamily: {
@@ -25,7 +25,8 @@ module.exports = withMT({
     },
 
     fontWeight: {
-      'extra-bold': 900
+      'bold': 600,
+      'extrabold': 900
     },
     extend: {},
   },

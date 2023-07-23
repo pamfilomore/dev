@@ -20,7 +20,7 @@ const Main = () => {
             <source src={videoBg} type="video/mp4" />
           </video>
           <div className="hero-label">
-            <h1 className="text-6xl font-header font-extra-bold">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-header font-extrabold">
               LET'S GO CAMPING
             </h1>
           </div>

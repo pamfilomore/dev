@@ -8,6 +8,8 @@ import About from './components/About'
 import GradientImg from './components/GradientImage'
 import Amenities from './components/Amenities';
 import Gallery from './components/Gallery'
+import FoodHubs from './components/FoodHubs'
+import FindUs from './components/FindUs'
 
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 
@@ -36,6 +38,8 @@ root.render(
         <GradientImg />
         <Amenities />
         <Gallery />
+        {/* <FoodHubs /> */}
+        <FindUs />
     </ThemeProvider>
 
 
