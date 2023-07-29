@@ -10,7 +10,7 @@ module.exports = withMT({
   important: "#root",
   theme: {
     fontSize: {
-      sm: '0.7rem',
+      sm: '0.8rem',
       base: '0.8rem',
       xl: '1.25rem',
       '2xl': '1.400rem',

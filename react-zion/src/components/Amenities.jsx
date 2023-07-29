@@ -3,8 +3,8 @@ import am1 from "../assets/img/amenitiesImg1.png";
 
 const Amenities = () => {
   return (
-    <div className="container mx-auto px-10">
-      <div className="pt-8 text-3xl font-header text-center font-extrabold">
+    <div className="container mx-auto px-10" id="amenities">
+      <div className="pt-8 text-3xl font-header text-center">
         <img className="max-w-[10rem] mx-auto" src={am1} />
         Our Amenities
       </div>

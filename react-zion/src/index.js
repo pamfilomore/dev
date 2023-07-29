@@ -10,8 +10,11 @@ import Amenities from './components/Amenities';
 import Gallery from './components/Gallery'
 import FoodHubs from './components/FoodHubs'
 import FindUs from './components/FindUs'
+import FAQ from './components/FAQ'
+import Footer from './components/Footer'
 
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import { Html } from '@mui/icons-material';
 
 
 
@@ -40,6 +43,8 @@ root.render(
         <Gallery />
         {/* <FoodHubs /> */}
         <FindUs />
+        <FAQ />
+        <Footer />
     </ThemeProvider>
 
 

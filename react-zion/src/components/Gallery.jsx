@@ -4,7 +4,7 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const Gallery = () => {
   return (
-    <div className="container mx-auto px-10 pt-5">
+    <div className="container mx-auto px-10 pt-5" id="gallery">
       <div className="pt-16 pb-5 text-3xl font-header text-center ">
         Take a look at some videos from our guests.
       </div>

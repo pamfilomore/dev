@@ -52,7 +52,7 @@ const About = () => {
             finding inner peace amidst the beauty that surrounds you.
           </div>
         </div>
-        <div className="pt-7 sm:pt-7 lg:h-max md:h-max sm:h-max">
+        <div className="pt-7 sm:pt-7">
           <Carousel className="rounded-lg shadow-xl shadow-black/40 w-80 overflow-hidden transition-all delay-300 hover:scale-105 origin-bottom -rotate-1 hover:rotate-0 hover:shadow-black/50">
             <img className="max-w-xs" src={c1} alt="" />
             <img className="max-w-xs" src={c2} alt="" />
