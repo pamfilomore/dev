@@ -5,7 +5,7 @@ import bgGradient from "../assets/img/img4.jpg";
 const GradientImage = () => {
   return (
     <Container maxWidth="false" disableGutters className="">
-      <div className=" w-full relative h-96 bg-gradient-to-t from-gray-700">
+      <div className="pt-3 w-full relative h-96 bg-gradient-to-t from-gray-700">
         <div className=" bottom-0 left-0 w-full">
           <img
             className="absolute mix-blend-overlay w-full h-full object-cover"

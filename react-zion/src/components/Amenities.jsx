@@ -3,18 +3,18 @@ import am1 from "../assets/img/amenitiesImg1.png";
 
 const Amenities = () => {
   return (
-    <div className="container mx-auto px-10" id="amenities">
-      <div className="pt-8 text-3xl font-header text-center">
-        <img className="max-w-[10rem] mx-auto" src={am1} />
+    <div className="mx-auto px-5 md:px-8 lg:container" id="amenities">
+      <div className="pt-8 text-2xl md:text-3xl font-header text-center">
+        <img className="max-w-[6rem] md:max-w-[8rem] mx-auto" src={am1} />
         Our Amenities
       </div>
-      <h1 className="pb-8 pt-6 leading-loose text-center max-w-3xl mx-auto">
+      <h1 className="pb-8 pt-6 leading-loose text-center max-w-3xl mx-auto text-sm md:text-base font-navFont">
         Embrace the Great Outdoors and Cherished Connections at our Campsite
         Haven. Discover the perfect blend of rustic charm and conveniences,
         where you can savor the simple joys of camping with a touch of comfort.
       </h1>
       {/* <h1 className="border-b border-gray-200"></h1> */}
-      <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-6 p-1 text-center">
+      <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-6  text-center">
         <div className="p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="flex justify-center">
             <svg
@@ -32,8 +32,10 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-5 font-title text-2xl font-bold">Wifi Access</h2>
-          <p>
+          <h2 className="py-3 font-title text-xl md:text-2xl font-bold ">
+            Wifi Access
+          </h2>
+          <p className="text-sm md:text-base font-navFont">
             Stay connected while camping with our free WiFi. Share your camping
             experience or stay on top of important emails with our reliable
             service.
@@ -56,12 +58,13 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-5 font-title text-2xl font-bold">Nipa hut</h2>
-          <p>
+          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
+            Nipa hut
+          </h2>
+          <p className="text-sm md:text-base font-navFont">
             Experience traditional Filipino living in our complimentary kubo
             huts. These charming and cozy huts are available for our guests,
-            offering a unique and authentic accommodation option at no extra
-            cost.
+            offering a unique and authentic accommodation at no extra cost.
           </p>
         </div>
         <div className="p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
@@ -81,8 +84,10 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-5 font-title text-2xl font-bold">Comfort Room</h2>
-          <p>
+          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
+            Comfort Room
+          </h2>
+          <p className="text-sm md:text-base font-navFont">
             We recognize the significance of offering fundamental amenities for
             your convenience. Our campsite features simple restroom facilities
           </p>
@@ -109,8 +114,10 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-5 font-title text-2xl font-bold">Bonfire</h2>
-          <p>
+          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
+            Bonfire
+          </h2>
+          <p className="text-sm md:text-base font-navFont">
             Experience the warmth of a bonfire, creating cherished memories
             under the starry sky. Our campsite offers a mesmerizing bonfire
             experience, fostering storytelling, laughter, and togetherness.
@@ -133,8 +140,10 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-5 font-title text-2xl font-bold">Grill</h2>
-          <p>
+          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
+            Grill
+          </h2>
+          <p className="text-sm md:text-base font-navFont">
             Enjoy outdoor cooking with our grills. Whether it's a mouthwatering
             barbecue or roasting marshmallows for a sweet treat, our grills are
             available for you to indulge in the joys of open-air cooking.
@@ -157,8 +166,10 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-5 font-title text-2xl font-bold">Solar lights</h2>
-          <p>
+          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
+            Solar lights
+          </h2>
+          <p className="text-sm md:text-base font-navFont">
             Embracing sustainability and eco-friendliness, our campsite is
             equipped with solar lights. ensuring an eco-conscious and
             energy-efficient lighting solution for your nighttime activities.

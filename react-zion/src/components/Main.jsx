@@ -3,6 +3,7 @@ import "./index.css";
 import { Container } from "@mui/material";
 import videoBg from "../assets/ClipF.mp4";
 import logo from "../assets/tranparentLogo.png";
+import { Link } from "react-scroll";
 
 const Main = () => {
   return (
@@ -21,12 +22,19 @@ const Main = () => {
         <source src={videoBg} type="video/mp4" />
       </video>
       <div className="hero-label z-10">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-header font-extrabold">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-header font-extrabold">
           LET'S GO CAMPING
         </h1>
       </div>
 
-      <button className="absolute rounded-full animate-bounce bottom-3 hover:animate-none hover:animate-ping ">
+      <Link
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={1500}
+        className="absolute rounded-full animate-bounce bottom-20 hover:animate-none hover:animate-ping hover:cursor-pointer"
+      >
         <svg
           className="stroke-gray-500 fill-transparent h-12 w-12"
           xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +47,7 @@ const Main = () => {
             stroke-linejoin="round"
           />
         </svg>
-      </button>
+      </Link>
     </div>
   );
 };

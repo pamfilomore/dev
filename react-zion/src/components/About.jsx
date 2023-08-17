@@ -12,21 +12,21 @@ import { Carousel } from "@material-tailwind/react";
 
 const About = () => {
   return (
-    <Container fixed maxWidth="lg" className="pt-6 ">
+    <Container fixed maxWidth="lg" className="pt-6" id="about">
       <div className="p-6">
-        <div className="pt-8 text-slate-500 text-center ">
+        <div className="pt-8 text-slate-500 text-center font-navFont text-sm md:text-base">
           Talisay, Batangas
         </div>
-        <div className="text-3xl md:text-4xl lg:text-4xl font-title border-b border-gray-200 dark:text-slate-700 text-center">
+        <div className="text-3xl md:text-4xl font-title border-b border-gray-200 dark:text-slate-700 text-center">
           Zion Grace Campsite
         </div>
-        <div className="pt-12 leading-loose">
+        <div className="pt-12 leading-loose text-sm md:text-base font-navFont">
           A tranquil and picturesque outdoor retreat nestled in the midst of
           nature's beauty. Located near Tagaytay, this campsite offers a serene
           environment where visitors can relax and unwind, away from the hustle
           and bustle of city life.
         </div>
-        <div className="py-6 leading-loose">
+        <div className="py-6 leading-loose text-sm md:text-base font-navFont">
           Provides you a peaceful escape from the daily stresses and demands of
           modern life. It is a place where individuals can truly "get out" and
           reconnect with nature.
@@ -41,19 +41,19 @@ const About = () => {
         </div>
       </div>
 
-      <div className="lg:flex space-x-4 sm:flex-none">
+      <div className="lg:flex space-x-4 sm:flex-none p-6">
         <div>
-          <div className="pt-11 text-3xl font-header border-b border-gray-200 dark:text-slate-700">
+          <div className="pt-11 text-2xl md:text-3xl font-header border-b border-gray-200 dark:text-slate-700">
             Relaxing Pleasure
           </div>
-          <div className="pt-12 leading-loose">
+          <div className="pt-7 leading-loose text-sm md:text-base font-navFont">
             Enjoy the stunning view of Taal Volcano and Taal Lake. Immerse
             yourself in the lush green landscapes, letting go of worries and
             finding inner peace amidst the beauty that surrounds you.
           </div>
         </div>
         <div className="pt-7 sm:pt-7">
-          <Carousel className="rounded-lg shadow-xl shadow-black/40 w-80 overflow-hidden transition-all delay-300 hover:scale-105 origin-bottom -rotate-1 hover:rotate-0 hover:shadow-black/50">
+          <Carousel className="rounded-lg shadow-xl shadow-black/40 w-72 overflow-hidden transition-all delay-300 hover:scale-105 origin-bottom -rotate-1 hover:rotate-0">
             <img className="max-w-xs" src={c1} alt="" />
             <img className="max-w-xs" src={c2} alt="" />
             <img className="max-w-xs" src={c3} alt="" />

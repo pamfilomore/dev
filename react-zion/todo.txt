@@ -1,0 +1,7 @@
+• Replace Carousel
+
+• Replace Gallery Section
+
+• Section animation
+
+• Responsive Design

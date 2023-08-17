@@ -12,6 +12,7 @@ import FoodHubs from './components/FoodHubs'
 import FindUs from './components/FindUs'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import FacebookMsg from './components/FacebookMsg';
 
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import { Html } from '@mui/icons-material';
@@ -45,6 +46,7 @@ root.render(
         <FindUs />
         <FAQ />
         <Footer />
+        <FacebookMsg />
     </ThemeProvider>
 
 
