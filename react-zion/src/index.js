@@ -1,21 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './components/Header'
+// import Header from './components/Header'
 
 import NavBar from './components/Nav'
 import Main from './components/Main'
 import About from './components/About'
 import GradientImg from './components/GradientImage'
 import Amenities from './components/Amenities';
-import Gallery from './components/Gallery'
-import FoodHubs from './components/FoodHubs'
+
+// import FoodHubs from './components/FoodHubs'
 import FindUs from './components/FindUs'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import FacebookMsg from './components/FacebookMsg';
+import VidGallery from './components/VidGallery';
+
 
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-import { Html } from '@mui/icons-material';
 
 
 
@@ -41,12 +42,14 @@ root.render(
         <About />
         <GradientImg />
         <Amenities />
-        <Gallery />
+        <VidGallery />
+
         {/* <FoodHubs /> */}
         <FindUs />
         <FAQ />
         <Footer />
         <FacebookMsg />
+
     </ThemeProvider>
 
 

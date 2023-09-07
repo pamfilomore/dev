@@ -1,4 +1,3 @@
-import { duration } from "@mui/material";
 import logo from "../assets/tranparentLogo.png";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-scroll";
@@ -15,7 +14,9 @@ const Nav = () => {
     setIsNavbarVisible(prevScrollPos > currentScrollPos);
     setPrevScrollPos(currentScrollPos);
 
-    currentScrollPos === 0 ? setIsTop(true) : setIsTop(false);
+    currentScrollPos <= 100
+      ? setIsTop(true) || setIsNavbarVisible(true)
+      : setIsTop(false);
   };
 
   useEffect(() => {
@@ -41,7 +42,7 @@ const Nav = () => {
       <div
         className={`${
           isNavbarVisible
-            ? "translate-y-0 transition ease-in-out delay-100 duration-400"
+            ? "translate-y-0 transition ease-in-out delay-1000 duration-500"
             : "-translate-y-28 transition ease-in-out delay-200 duration-500"
         } ${
           isTop ? "bg-opacity-25" : "bg-opacity-60"

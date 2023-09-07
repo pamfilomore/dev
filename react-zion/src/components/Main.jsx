@@ -1,8 +1,6 @@
 import React from "react";
 import "./index.css";
-import { Container } from "@mui/material";
 import videoBg from "../assets/ClipF.mp4";
-import logo from "../assets/tranparentLogo.png";
 import { Link } from "react-scroll";
 
 const Main = () => {

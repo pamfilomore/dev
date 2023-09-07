@@ -41,7 +41,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="lg:flex space-x-4 sm:flex-none p-6">
+      <div className="lg:flex space-x-3 sm:flex-none p-6">
         <div>
           <div className="pt-11 text-2xl md:text-3xl font-header border-b border-gray-200 dark:text-slate-700">
             Relaxing Pleasure
@@ -52,7 +52,7 @@ const About = () => {
             finding inner peace amidst the beauty that surrounds you.
           </div>
         </div>
-        <div className="pt-7 sm:pt-7">
+        <div className="pt-7">
           <Carousel className="rounded-lg shadow-xl shadow-black/40 w-72 overflow-hidden transition-all delay-300 hover:scale-105 origin-bottom -rotate-1 hover:rotate-0">
             <img className="max-w-xs" src={c1} alt="" />
             <img className="max-w-xs" src={c2} alt="" />

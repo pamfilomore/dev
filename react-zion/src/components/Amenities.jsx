@@ -15,7 +15,7 @@ const Amenities = () => {
       </h1>
       {/* <h1 className="border-b border-gray-200"></h1> */}
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-6  text-center">
-        <div className="p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        <div className="p-3 lg:p-8  block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="flex justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -32,16 +32,14 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-3 font-title text-xl md:text-2xl font-bold ">
-            Wifi Access
-          </h2>
+          <h2 className="py-3 font-title text-xl font-bold ">Wifi Access</h2>
           <p className="text-sm md:text-base font-navFont">
             Stay connected while camping with our free WiFi. Share your camping
             experience or stay on top of important emails with our reliable
             service.
           </p>
         </div>
-        <div className="p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        <div className="p-3 lg:p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="flex justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,16 +56,14 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
-            Nipa hut
-          </h2>
+          <h2 className="py-3 font-title text-xl font-bold">Nipa hut</h2>
           <p className="text-sm md:text-base font-navFont">
             Experience traditional Filipino living in our complimentary kubo
             huts. These charming and cozy huts are available for our guests,
             offering a unique and authentic accommodation at no extra cost.
           </p>
         </div>
-        <div className="p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        <div className="p-3 lg:p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="flex justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -84,15 +80,13 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
-            Comfort Room
-          </h2>
+          <h2 className="py-3 font-title text-xl font-bold">Comfort Room</h2>
           <p className="text-sm md:text-base font-navFont">
             We recognize the significance of offering fundamental amenities for
             your convenience. Our campsite features simple restroom facilities
           </p>
         </div>
-        <div className="p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        <div className="p-3 lg:p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="flex justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -114,16 +108,14 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
-            Bonfire
-          </h2>
+          <h2 className="py-3 font-title text-xl font-bold">Bonfire</h2>
           <p className="text-sm md:text-base font-navFont">
             Experience the warmth of a bonfire, creating cherished memories
             under the starry sky. Our campsite offers a mesmerizing bonfire
             experience, fostering storytelling, laughter, and togetherness.
           </p>
         </div>
-        <div className="p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        <div className="p-3 lg:p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="flex justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -140,16 +132,14 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
-            Grill
-          </h2>
+          <h2 className="py-3 font-title text-xl font-bold">Grill</h2>
           <p className="text-sm md:text-base font-navFont">
             Enjoy outdoor cooking with our grills. Whether it's a mouthwatering
             barbecue or roasting marshmallows for a sweet treat, our grills are
             available for you to indulge in the joys of open-air cooking.
           </p>
         </div>
-        <div className="p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        <div className="p-3 lg:p-8 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div className="flex justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -166,9 +156,7 @@ const Amenities = () => {
               />
             </svg>
           </div>
-          <h2 className="py-3 font-title text-xl md:text-2xl font-bold">
-            Solar lights
-          </h2>
+          <h2 className="py-3 font-title text-xl font-bold">Solar lights</h2>
           <p className="text-sm md:text-base font-navFont">
             Embracing sustainability and eco-friendliness, our campsite is
             equipped with solar lights. ensuring an eco-conscious and

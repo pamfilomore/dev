@@ -16,7 +16,7 @@ module.exports = withMT({
       xl: '1.25rem',
       '2xl': '1.5rem',
       '3xl': '1.953rem',
-      '4xl': '2.2rem',
+      '4xl': '2rem',
       '5xl': '3.752rem',
       '6xl': '4.500rem',
     },
